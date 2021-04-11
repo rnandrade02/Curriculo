@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Página Principal
+--------------------------------------------------------------*/
+
+#principal {
+    background: #181717;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+.principal-qualidade {
+    font-family: "lora-regular", serif;
+    font-size: 15px;
+    line-height: 38.4px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: "poppins-medium", sans-serif;
+    font-size: 134.4px;
+    line-height: 1.071;
+    max-width: 900px;
+    margin-top: 0;
+    margin-bottom: 9.6px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
+
+.principal-interno {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal-interno h5 {
+    color: #cc005f;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 15px;
+    line-height: 1.565;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+}
+
+.principal-social li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.principal-social li a,
+.principal-social li a:visited {
+    color: #FFFFFF;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.principal-social li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.principal-social {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 25px;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+button.stroke,
+.button.stroke {
+    background: transparent;
+    border: 2px solid #eeeaea;
+    line-height: 150px;
+}
+
+.button {
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 0.3);
+    padding: 45px 45px 45px 70px;
+    margin-top: 20px;
+    font-size: 20.8px;
+    letter-spacing: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# curriculo
+--------------------------------------------------------------*/
